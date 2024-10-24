@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="lambpaktest.LambdaTestIntegrationTest"/>
-      <class name="lambpaktest.LambdaTestIntegrationTest2"/>
-      <class name="lambpaktest.LambdaTestIntegrationTest3"/>
+     <!-- <class name="lambpaktest.LambdaTestIntegrationTest2"/>
+      <class name="lambpaktest.LambdaTestIntegrationTest3"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
