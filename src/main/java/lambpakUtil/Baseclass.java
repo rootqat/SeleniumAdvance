@@ -43,9 +43,10 @@ public class Baseclass {
 	DesiredCapabilities capabilities;
 
 	public WebDriver intializationBrowser(String browserName) throws MalformedURLException {
-		// driver = new ChromeDriver();
+		driver = new ChromeDriver();
 
-		String hubURL = "https://hub.lambdatest.com/wd/hub";
+		//**
+String hubURL = "https://hub.lambdatest.com/wd/hub";
 
 		capabilities = new DesiredCapabilities();
 		if (browserName.equals("chrome")) {
@@ -78,7 +79,7 @@ public class Baseclass {
 
 		// driver = new RemoteWebDriver(new URL(GRID_HUB_URL), capabilities);
 
-		return driver;
+		return driver;**/
 
 		// return driver;
 	}
